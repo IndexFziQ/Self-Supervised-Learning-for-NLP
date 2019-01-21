@@ -5,6 +5,7 @@ A research on self-supervised learning with the interest of applying it into NLP
 ## Introduction
 
 First, the definition of self-supervised learning should be given. Three questions are needed to be answered (ref. Wang):
+
 * What is self-supervised learning?
 	* Use naturally existed supervision signals for training.
 	* (Almost) no human intervention
@@ -21,7 +22,7 @@ The following is the details for the 3th question. Also, the difference between 
 
 ## What is self-supervised learning?
 
-Compared to other machine learning paradigms:
+**Compared to other machine learning paradigms:**
 
 **Polarization**
 
@@ -38,7 +39,7 @@ Compared to other machine learning paradigms:
 8. active learning: In the beginning, given little labels, the model should study which labeled samples are needed and meaningful. It aims to teach model to select more important data.
 9. zero/one/few-shot learning: Given no/one/little samples, we try the best to train a classifier.
 
-After giving a nearly whole distinction, we can answer "What is self-supervised learning?" clearly.
+**After giving a nearly whole distinction, we can answer "What is self-supervised learning?" clearly.**
 
 10. self-supervised learning: It belongs to unsupervised learning with (almost) no human intervention. Differently, the model uses naturally existed supervision signals for training. In other words, the supervision signals exist in the unlabeled data and we utilize the prediction way (like supervised learning) to train the model.
 
