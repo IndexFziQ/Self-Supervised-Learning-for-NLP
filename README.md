@@ -16,6 +16,7 @@ First, the definition of self-supervised learning should be given. Three questio
 	* Video
 	* Cross-Modality
 	* Examplar Learning
+	
 The following is the details for the 3th question. Also, the difference between self-supervised learning and supervised learning, unsupervised learning, semi-supervised learning, self-taught learning... should gain attention. The definition must be distinguished.
 
 ## What is self-supervised learning?
@@ -23,8 +24,10 @@ The following is the details for the 3th question. Also, the difference between 
 Compared to other machine learning paradigms:
 
 **Polarization**
+
 1. supervised learning: Given data and desired output, the model aims to finish the task.
 2. unsupervised learning: No guidance at all. Only data with no label. We need to mine useful or meaningful information from the data distribution.
 
 **In Between**
+
 3. semi-supervised learning: 
