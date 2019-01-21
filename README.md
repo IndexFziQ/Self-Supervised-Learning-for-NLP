@@ -39,13 +39,13 @@ The following is the details for the 3th question. Also, the difference between 
 
 6. self-supervised learning: It belongs to unsupervised learning with (almost) no human intervention. Differently, the model uses naturally existed supervision signals for training. In other words, the supervision signals exist in the unlabeled data and we utilize the prediction way (like supervised learning) to train the model.
 
-**Highlight**
+**Others**
 
 7. transfer learning: Train on one problem, but test on a different but related problem, e.g. multi-task learning, incremental learning and domain adaptation.
 8. active learning: In the beginning, given little labels, the model should study which labeled samples are needed and meaningful. It aims to teach model to select more important data.
 9. zero/one/few-shot learning: Given no/one/little samples, we try the best to train a classifier.
 
-At last, reinforcement learning is different from deep learning. Based on the reward from environment, the model gives the reaction. Compared to self-supervised learning, the feedback is low. 
+At last, reinforcement learning is different from the above. Based on the reward from environment, the model gives the reaction. Compared to self-supervised learning, the feedback is low. 
 
 ## Why do we need it?
 
