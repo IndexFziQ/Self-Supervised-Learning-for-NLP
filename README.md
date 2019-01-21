@@ -30,4 +30,28 @@ Compared to other machine learning paradigms:
 
 **In Between**
 
-3. semi-supervised learning: 
+3. semi-supervised learning: Mix labeled and unlabeled data, and usually labeded data is low-source. We utilize large-scale unlabeled data distribution to help supervised learning.
+4. self-taught learning: Compared to semi-supervised learning, the unlabeled data distribution can be different from the labeled data. Usually, we use autoencoders to train unsupervised inner features from unlabeled data. Then, use the feature to replace or enhance the input representation of labeled data. Reconstruction can hardly represent semantic information due to using no structural loss.
+5. weakly-supervised learning: It is a special supervised learning which use somewhat coarse or inaccurate supervision. Design some simple form label for data. E.g., given scribble, infer the full pixel level segmentation.
+6. transfer learning: Train on one problem, but test on a different but related problem, e.g. multi-task learning, incremental learning and domain adaptation.
+7. reinforcement learning: Based on the reward from environment, the model gives the reaction. Usually, the feedback is low.
+8. active learning: In the beginning, given little labels, the model should study which labeled samples are needed and meaningful. It aims to teach model to select more important data.
+9. zero/one/few-shot learning: Given no/one/little samples, we try the best to train a classifier.
+
+After giving a nearly whole distinction, we can answer "What is self-supervised learning?" clearly.
+
+10. self-supervised learning: It belongs to unsupervised learning with (almost) no human intervention. Differently, the model uses naturally existed supervision signals for training. In other words, the supervision signals exist in the unlabeled data and we utilize the prediction way (like supervised learning) to train the model.
+
+## Why do we need it?
+
+No matter what CV or NLP with deep learning, representation learning is a fundamental problem. We usually use pretrain-then-finetune pipeline. As to this point, self-supervised learning can leverage self-labels for representation learning. Also, the representation contains high-level semantic information because of the human-like learning mode, which is meaningful for deep learning.
+
+## How can we realize it?
+
+### Context
+
+### Video
+
+### Cross-Modality
+
+### Exemplar Learning
