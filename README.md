@@ -76,40 +76,45 @@ Keep updating ...
     * Contribution
         * Introduce the context-free network (CFN), a CNN whose features can be easily transferred between detection/classification and Jigsaw puzzle reassembly tasks.
     * Overview
-<div align=center>
-    <img src="./images/Jigsaw 2.png" height="50%" width="50%" />
-</div>
+	<div align=center>
+	    <img src="./images/Jigsaw 2.png" height="50%" width="50%" />
+	</div>
     
 #### Colorization
 
 * **Context Encoders: Feature Learning by Impainting.** *Pathak, Deepak and Krahenbuhl, Philipp and Donahue, Jeff and Darrell, Trevor and Efros, Alexei A.* In CVPR 2016. [[pdf]](https://people.eecs.berkeley.edu/~pathak/papers/cvpr16.pdf)
     * Motivation
         * Given an image with a missing region, we train a convolutional neural network to regress to the missing pixel values. It is possible to learn and predict this structure.
-<div align=center>
-    <img src="./images/Color 1-0.png" height="50%" width="50%" />
-</div>
+	<div align=center>
+	    <img src="./images/Color 1-0.png" height="50%" width="50%" />
+	</div>
+	
     * Contribution
         * The model consists of an encoder capturing the context of an image into a compact latent feature representation and a decoder which uses that representation to produce the miss- ing image content.
         * Introduce a channel- wise fully-connected layer, which allows each unit in the decoder to reason about the entire image content.
         * With the advancement of adversarial loss.
+	
     * Overview
         * The overall architecture is a simple encoder-decoder pipeline. The encoder takes an input image with missing regions and produces a latent feature representation of that image. The decoder takes this feature representation and produces the missing image content.
-<div align=center>
-    <img src="./images/Color 1-1.png" height="50%" width="50%" />
-</div>
+	<div align=center>
+	    <img src="./images/Color 1-1.png" height="50%" width="50%" />
+	</div>
 
 * **Colorful Image Colorization.** *Zhang, Richard and Isola, Phillip and Efros, Alexei A.* In ECCV 2016. [[pdf]](https://arxiv.org/abs/1603.08511)
+
     * Motivation
         * Given a grayscale photograph as input, this paper attacks the problem of hallucinating a plausible color version of the photograph. You have to know what the object is before you predict its color. E.g. Apple is red/green, sky is blue, etc.
-<div align=center>
-    <img src="./images/Color 2-0.png" height="50%" width="50%" />
-</div>
+	<div align=center>
+	    <img src="./images/Color 2-0.png" height="50%" width="50%" />
+	</div>
+	
     * Contribution
         * propose a fully automatic approach that produces vibrant and realistic colorizations.
         * The method successfully fools humans on 32% of the trials, significantly higher than previous methods. 
         * It shows that colorization can be a powerful pretext task for self-supervised feature learning, acting as a cross-channel encoder. 
+	
     * Overview
-<div align=center>
-    <img src="./images/Color 2-1.png" height="50%" width="50%" />
-</div>
+	<div align=center>
+	    <img src="./images/Color 2-1.png" height="50%" width="50%" />
+	</div>
 
