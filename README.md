@@ -37,11 +37,11 @@ The following is the details for the 3th question. Also, the difference between 
 
 **After giving a nearly whole distinction, we can answer "What is self-supervised learning?" clearly.**
 
-6. self-supervised learning: It belongs to unsupervised learning with (almost) no human intervention. Differently, the model uses naturally existed supervision signals for training. In other words, the supervision signals exist in the unlabeled data and we utilize the prediction way (like supervised learning) to train the model.
+6. self-supervised learning: It belongs to unsupervised learning with (almost) no human intervention. Differently, the model uses naturally existed supervision signals for training. Labels are obtained from the structure of the data. In other words, the supervision signals exist in the unlabeled data and we utilize the prediction way (like supervised learning) to train the model.
 
 **Others**
 
-7. transfer learning: Train on one problem, but test on a different but related problem, e.g. multi-task learning, incremental learning and domain adaptation.
+7. transfer learning: Train on one problem, but test on a different but related problem, which is a pretrain-then-finetune pipeline, e.g. multi-task learning, incremental learning and domain adaptation. And to some degree, self-supervised learning is also included because of the pretrain-then-finetune pipeline.
 8. active learning: In the beginning, given little labels, the model should study which labeled samples are needed and meaningful. It aims to teach model to select more important data.
 9. zero/one/few-shot learning: Given no/one/little samples, we try the best to train a classifier.
 
@@ -53,10 +53,63 @@ No matter what CV or NLP with deep learning, representation learning is a fundam
 
 ## How can we realize it?
 
+Keep updating ...
+
 ### Context
 
-### Video
+#### Solving the Jigsaw
 
-### Cross-Modality
+* **Unsupervised Visual Representation Learning by Context Prediction.** *Carl Doersch, Abhinav Gupta, and Alexei A. Efros.* In ICCV 2015. [[pdf]](https://arxiv.org/pdf/1505.05192.pdf)
+    * Motivation
+        * Predict relative positions of patches.
+    * Contribution
+        * The first work to implement self-supervised learning. With the intention to solve the Jigsaw, we need to understand the object firstly.
+    * Overview
+        * CNN is especially good at it. The paper divided one object to nine patches to predict relative positions.
+<div align=center>
+    <img src="./images/Jigsaw 1.png" height="50%" width="50%" />
+</div>
+    
+* **Unsupervised learning of visual representations by solving jigsaw puzzles.** *Noroozi, Mehdi and Favaro, Paolo.* In ECCV 2016. [[pdf]](http://arxiv.org/abs/1603.09246)
+    * Motivation
+        * Use stronger supervision, solve the real jigsaw problem. 
+    * Contribution
+        * Introduce the context-free network (CFN), a CNN whose features can be easily transferred between detection/classification and Jigsaw puzzle reassembly tasks.
+    * Overview
+<div align=center>
+    <img src="./images/Jigsaw 2.png" height="50%" width="50%" />
+</div>
+    
+#### Colorization
 
-### Exemplar Learning
+* **Context Encoders: Feature Learning by Impainting.** *Pathak, Deepak and Krahenbuhl, Philipp and Donahue, Jeff and Darrell, Trevor and Efros, Alexei A.* In CVPR 2016. [[pdf]](https://people.eecs.berkeley.edu/~pathak/papers/cvpr16.pdf)
+    * Motivation
+        * Given an image with a missing region, we train a convolutional neural network to regress to the missing pixel values. It is possible to learn and predict this structure.
+<div align=center>
+    <img src="./images/Color 1-0.png" height="50%" width="50%" />
+</div>
+    * Contribution
+        * The model consists of an encoder capturing the context of an image into a compact latent feature representation and a decoder which uses that representation to produce the miss- ing image content.
+        * Introduce a channel- wise fully-connected layer, which allows each unit in the decoder to reason about the entire image content.
+        * With the advancement of adversarial loss.
+    * Overview
+        * The overall architecture is a simple encoder-decoder pipeline. The encoder takes an input image with missing regions and produces a latent feature representation of that image. The decoder takes this feature representation and produces the missing image content.
+<div align=center>
+    <img src="./images/Color 1-1.png" height="50%" width="50%" />
+</div>
+
+* **Colorful Image Colorization.** *Zhang, Richard and Isola, Phillip and Efros, Alexei A.* In ECCV 2016. [[pdf]](https://arxiv.org/abs/1603.08511)
+    * Motivation
+        * Given a grayscale photograph as input, this paper attacks the problem of hallucinating a plausible color version of the photograph. You have to know what the object is before you predict its color. E.g. Apple is red/green, sky is blue, etc.
+<div align=center>
+    <img src="./images/Color 2-0.png" height="50%" width="50%" />
+</div>
+    * Contribution
+        * propose a fully automatic approach that produces vibrant and realistic colorizations.
+        * The method successfully fools humans on 32% of the trials, significantly higher than previous methods. 
+        * It shows that colorization can be a powerful pretext task for self-supervised feature learning, acting as a cross-channel encoder. 
+    * Overview
+<div align=center>
+    <img src="./images/Color 2-1.png" height="50%" width="50%" />
+</div>
+
