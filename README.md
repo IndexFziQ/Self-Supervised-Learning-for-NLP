@@ -123,4 +123,4 @@ Keep updating ...
 
 1. The Presentation given by Yann LeCun in theOpening of IJCAI 2018: We Need a World Model.[ [pdf](https://cloud.tencent.com/developer/article/1356966), [chinese](http://ir.hit.edu.cn/~zyli/papers/lecun_ijcai18.pdf) ]
 2. awesome-self-supervised-learning. [ [url](https://github.com/jason718/awesome-self-supervised-learning) ]
-3. Talk by Naiyan Wang. A Survey to Self-supervised learning. [ [ppt](http://link.zhihu.com/?target=http%3A//winsty.net/talks/self_supervised.pptx) ]
+3. A Survey to Self-supervised learning. [ [ppt](http://link.zhihu.com/?target=http%3A//winsty.net/talks/self_supervised.pptx) ]
