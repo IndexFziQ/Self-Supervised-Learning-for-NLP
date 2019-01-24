@@ -118,3 +118,9 @@ Keep updating ...
 	    <img src="./Images/Color 2-1.png" height="50%" width="50%" />
 	</div>
 
+
+# Reference
+
+1. The Presentation given by Yann LeCun in theOpening of IJCAI 2018: We Need a World Model.[[pdf]](http://ir.hit.edu.cn/~zyli/papers/lecun_ijcai18.pdf)
+2. awesome-self-supervised-learning. [[url]](https://github.com/jason718/awesome-self-supervised-learning)
+3. Talk by Naiyan Wang. A Survey to Self-supervised learning. [[ppt]](http://link.zhihu.com/?target=http%3A//winsty.net/talks/self_supervised.pptx)
