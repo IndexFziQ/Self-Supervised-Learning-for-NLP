@@ -1,6 +1,6 @@
 # Research on Self-Supervised Learning
 
-A research on self-supervised learning with the interest of applying it into NLP field. Inspired by the talk (Naiyin Wang), this work lists some typical papers about self-supervised learning. The aim is to find the advantage of it and apply it into NLP research. Also, lots of related works will be linked, such as Lecun's presentation and awesome-self-supervised-learning.
+A research on self-supervised learning with the interest of applying it into NLP field. Inspired by the talk (Naiyan Wang), this work lists some typical papers about self-supervised learning. The aim is to find the advantage of it and apply it into NLP research. Also, lots of related works will be linked, such as Lecun's presentation and awesome-self-supervised-learning.
 
 ## Introduction
 
