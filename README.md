@@ -37,7 +37,7 @@ The following is the details for the 3th question. Also, the difference between 
 
 **After giving a nearly whole distinction, we can answer "What is self-supervised learning?" clearly.**
 
-6. self-supervised learning: It belongs to unsupervised learning with (almost) no human intervention. Differently, the model uses naturally existed supervision signals for training. Labels are obtained from the structure of the data. In other words, the supervision signals exist in the unlabeled data and we utilize the prediction way (like supervised learning) to train the model.
+6. self-supervised learning: Like unsupervised learning, (almost) no human intervention. Differently, the model uses naturally existed supervision signals for training. Labels are obtained from the structure of the data. In other words, the supervision signals exist in the unlabeled data and we utilize the prediction way (like supervised learning) to train the model.
 
 **Others**
 
