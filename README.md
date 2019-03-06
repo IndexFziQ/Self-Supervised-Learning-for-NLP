@@ -118,6 +118,61 @@ Keep updating ...
 	    <img src="./Images/Color 2-1.png" height="50%" width="50%" />
 	</div>
 
+### Video
+
+#### Motion consistency
+
+* **Unsupervised learning of visual representations using videos**. *Wang, Xiaolong and Gupta, Abhinav.*  In ICCV 2015. [[pdf]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Wang_Unsupervised_Learning_of_ICCV_2015_paper.pdf)
+    * Motivation
+        * Find corresponding pairs using visual tracking.
+    * Contribution
+        * Define a rank task to find corresponding two frames.
+    * Overview
+
+
+* **Dense optical flow prediction from a static image**. *Jacob Walker, Abhinav Gupta, and Martial Hebert*. In ICCV 2015. [[pdf]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Walker_Dense_Optical_Flow_ICCV_2015_paper.pdf)
+    * Motivation
+        * Directly predict motion,  Motion is not predictable by its nature.
+    * Contribution
+        * The ultimate goal is not to predict instance motion, but to learn common motion of visually similar objects.
+    * Overview
+
+* **Pose from Action: Unsupervised Learning of Pose Features based on Motion**. *Senthil Purushwalkam and Abhinav Gupta*.  In ECCVW 2016. [[pdf]](https://arxiv.org/pdf/1609.05420.pdf)
+    * Motivation
+        * Similar pose should have similar motion. 
+    * Contribution
+        * Learning appearance transformation.
+    * Overview
+
+#### Action Order
+
+* **Shuffle and learn: unsupervised learning using temporal order verification**. *Misra, Ishan and Zitnick, C. Lawrence and Hebert, Martial*. In ECCV 2016. [[pdf]](https://arxiv.org/pdf/1603.08561.pdf)
+    * Motivation
+        * Is the temporal order of a video correct? 
+    * Contribution
+        * Encode the cause and effect of action.
+    * Overview
+
+* **Self-Supervised Video Representation Learning With Odd-One-Out Networks**. *Fernando, Basura and Bilen, Hakan and Gavves, Efstratios and Gould, Stephen*. In CVPR 2017. [[pdf]](https://arxiv.org/pdf/1611.06646.pdf)
+    * Motivation
+        * Is the temporal order of a video correct? 
+    * Contribution
+        * Define the task to find the odd sequence.
+    * Overview
+    
+
+### Cross-Modality
+
+* **TextTopicNet - Self-Supervised Learning of Visual Features Through Embedding Images on Semantic Text Spaces.** *Patel et al.* In CVPR 2017. [[pdf]](https://arxiv.org/pdf/1807.02110.pdf)
+    * Motivation
+        * Take advantage of multi-modal context (Wikipedia) for self-supervised learning.
+    * Contribution
+        * Train a CNN to predict the more probable pic to appear as an illustration.
+        * SOTA performance in image classification, object detection, and multi-modal retrieval.
+    * Overview
+
+    
+
 
 # Reference
 
