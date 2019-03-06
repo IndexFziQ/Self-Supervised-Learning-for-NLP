@@ -129,6 +129,9 @@ Keep updating ...
         * Define a rank task to find corresponding two frames.
     * Overview
 
+<div align=center>
+	    <img src="./Images/video1.png" height="50%" width="50%" />
+</div> 
 
 * **Dense optical flow prediction from a static image**. *Jacob Walker, Abhinav Gupta, and Martial Hebert*. In ICCV 2015. [[pdf]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Walker_Dense_Optical_Flow_ICCV_2015_paper.pdf)
     * Motivation
@@ -136,6 +139,9 @@ Keep updating ...
     * Contribution
         * The ultimate goal is not to predict instance motion, but to learn common motion of visually similar objects.
     * Overview
+<div align=center>
+	    <img src="./Images/video2.png" height="50%" width="50%" />
+</div> 
 
 * **Pose from Action: Unsupervised Learning of Pose Features based on Motion**. *Senthil Purushwalkam and Abhinav Gupta*.  In ECCVW 2016. [[pdf]](https://arxiv.org/pdf/1609.05420.pdf)
     * Motivation
@@ -143,6 +149,14 @@ Keep updating ...
     * Contribution
         * Learning appearance transformation.
     * Overview
+
+<div align=center>
+	    <img src="./Images/video3.png" height="50%" width="50%" />
+</div> 
+
+<div align=center>
+	    <img src="./Images/video4.png" height="50%" width="50%" />
+</div> 
 
 #### Action Order
 
@@ -153,13 +167,20 @@ Keep updating ...
         * Encode the cause and effect of action.
     * Overview
 
+<div align=center>
+	    <img src="./Images/video5.png" height="50%" width="50%" />
+</div> 
+
 * **Self-Supervised Video Representation Learning With Odd-One-Out Networks**. *Fernando, Basura and Bilen, Hakan and Gavves, Efstratios and Gould, Stephen*. In CVPR 2017. [[pdf]](https://arxiv.org/pdf/1611.06646.pdf)
     * Motivation
         * Is the temporal order of a video correct? 
     * Contribution
         * Define the task to find the odd sequence.
     * Overview
-    
+
+<div align=center>
+	    <img src="./Images/video6.png" height="50%" width="50%" />
+</div> 
 
 ### Cross-Modality
 
@@ -171,7 +192,9 @@ Keep updating ...
         * SOTA performance in image classification, object detection, and multi-modal retrieval.
     * Overview
 
-    
+<div align=center>
+	    <img src="./Images/cross1.png" height="50%" width="50%" />
+</div>
 
 
 # Reference
