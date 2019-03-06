@@ -67,7 +67,7 @@ Keep updating ...
     * Overview
         * CNN is especially good at it. The paper divided one object to nine patches to predict relative positions.
 	<div align=center>
-	    <img src="./images/Jigsaw 1.png" height="50%" width="50%" />
+	    <img src="./Images/Jigsaw 1.png" height="50%" width="50%" />
 	</div>
     
 * **Unsupervised learning of visual representations by solving jigsaw puzzles.** *Noroozi, Mehdi and Favaro, Paolo.* In ECCV 2016. [[pdf]](http://arxiv.org/abs/1603.09246)
@@ -77,7 +77,7 @@ Keep updating ...
         * Introduce the context-free network (CFN), a CNN whose features can be easily transferred between detection/classification and Jigsaw puzzle reassembly tasks.
     * Overview
 	<div align=center>
-	    <img src="./images/Jigsaw 2.png" height="50%" width="50%" />
+	    <img src="./Images/Jigsaw 2.png" height="50%" width="50%" />
 	</div>
     
 #### Colorization
@@ -86,7 +86,7 @@ Keep updating ...
     * Motivation
         * Given an image with a missing region, we train a convolutional neural network to regress to the missing pixel values. It is possible to learn and predict this structure.
 	<div align=center>
-	    <img src="./images/Color 1-0.png" height="50%" width="50%" />
+	    <img src="./Images/Color 1-0.png" height="50%" width="50%" />
 	</div>
 	
     * Contribution
@@ -97,7 +97,7 @@ Keep updating ...
     * Overview
         * The overall architecture is a simple encoder-decoder pipeline. The encoder takes an input image with missing regions and produces a latent feature representation of that image. The decoder takes this feature representation and produces the missing image content.
 	<div align=center>
-	    <img src="./images/Color 1-1.png" height="50%" width="50%" />
+	    <img src="./Images/Color 1-1.png" height="50%" width="50%" />
 	</div>
 
 * **Colorful Image Colorization.** *Zhang, Richard and Isola, Phillip and Efros, Alexei A.* In ECCV 2016. [[pdf]](https://arxiv.org/abs/1603.08511)
@@ -115,7 +115,7 @@ Keep updating ...
 	
     * Overview
 	<div align=center>
-	    <img src="./images/Color 2-1.png" height="50%" width="50%" />
+	    <img src="./Images/Color 2-1.png" height="50%" width="50%" />
 	</div>
 
 ### Video
