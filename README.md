@@ -196,6 +196,20 @@ Keep updating ...
 	    <img src="./images/cross1.png" height="50%" width="50%" />
 </div>
 
+## The Development in NLP areas
+
+### General Open-domain Pre-training
+
+#### Word2Vec
+#### LM
+#### GPT
+#### BERT
+#### T5
+
+### Task-specific In-domain Pre-training
+
+#### Dialog
+#### Abstract Summarization
 
 # Reference
 
